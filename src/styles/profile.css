@@ -1,0 +1,96 @@
+.profile{
+    max-width: 600px;
+    margin: 20px auto;
+
+}
+.profile-frame{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+.profile-picture{
+    height: fit-content;
+}
+.profile-picture > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.profile-data{
+    text-align: left;
+    padding-left: 10px;
+}
+.followbtn{
+    padding: 10px 15px;
+    border:  none;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.followbtn:hover{
+    transform: scale(1.1);
+}
+.profile-info{
+    display: flex;
+
+}
+.profile-info > p{
+    padding-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.profile-gallary{
+    display: flex;
+   text-align: center;
+    flex-wrap: wrap;
+}
+.profile-gallary>img{
+    width: 30%;
+    margin: 10px;
+}
+
+
+/*ProfilePic.css*/
+.changePic{
+    background-color: white;
+    border-radius: 20px;
+}
+.changePic>:first-child{
+    margin-bottom: 10px;
+}
+
+.changePic>div{
+    padding: 15px 80px;
+}
+.upload-btn{
+    background: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    color: #1EA1F7;
+    cursor: pointer;
+}
+.remove-btn{
+    background: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    color: #ED4956;
+    cursor: pointer;
+}
+.cancal-btn{
+    background: none;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.button{
+    border-top: 1px solid #00000029;
+    cursor: pointer;
+}

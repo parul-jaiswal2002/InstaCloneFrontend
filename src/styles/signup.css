@@ -1,0 +1,53 @@
+.signup{
+    background-image: url(https://preview.colorkit.co/gradient/f9ce34-ee2a7b-6228d7.png?size=wallpaper&scale=0.25&static=true);
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.signupLogo{
+    width: 12.5rem;
+    padding: 5px 0;
+    object-fit: contain;
+}
+.form .loginpara{
+    color : rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.24rem;
+    margin: 0px 2.5rem 1.25rem 2.5rem;
+}
+.form input{
+    padding: 5px ;
+    margin: 3px 0px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form > div{
+    width: 80%;
+    margin: auto;
+}
+#submit-btn{
+    background-color: rgb(9, 40, 113);
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.form2{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
